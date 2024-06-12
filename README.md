@@ -1,4 +1,3 @@
-imdb_style_html_content = """
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -98,4 +97,49 @@ imdb_style_html_content = """
             </nav>
         </div>
     </header>
-    <div class
+    <div class="hero">
+        <div class="container">
+            <h1>Welkom op PodHorizon</h1>
+            <p>Ontdek de beste podcasts met onze uitgebreide reviews en aanbevelingen.</p>
+        </div>
+    </div>
+    <div class="container content">
+        <section id="reviews">
+            <h2>Recente Reviews</h2>
+            <div class="grid-container">
+                <div class="post">
+                    <img src="image_url" alt="Podcast Image">
+                    <h2>Titel van de Podcast</h2>
+                    <p><strong>Reviewdatum:</strong> 12 juni 2024</p>
+                    <p><strong>Beoordeling:</strong> ★★★★☆</p>
+                    <div class="details">
+                        <p><strong>Makers:</strong> Naam Makers</p>
+                        <p><strong>Muziek:</strong> Naam Muziek</p>
+                        <p><strong>Genre:</strong> Genre van de Podcast</p>
+                    </div>
+                    <p>Hier komt een gedetailleerde review van de podcast. Beschrijf waar de podcast over gaat, wat je ervan vond, en waarom anderen het zouden moeten luisteren.</p>
+                </div>
+                <!-- Voeg hier meer reviews toe -->
+            </div>
+        </section>
+        <section id="favorites">
+            <h2>Favoriete Podcasts</h2>
+            <div class="grid-container">
+                <div class="post">
+                    <h2>Titel van de Podcast</h2>
+                    <p>Beschrijving van waarom deze podcast een favoriet is. Wat maakt deze podcast bijzonder en waarom zou je het aanbevelen?</p>
+                </div>
+                <!-- Voeg hier meer favorieten toe -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ankosteenbeek@gmail.com">ankosteenbeek@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ankosteenbeek/">https://www.linkedin.com/in/ankosteenbeek/</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 PodHorizon. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
