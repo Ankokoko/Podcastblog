@@ -1,4 +1,3 @@
-# Save the updated HTML content to a file with IMDb-inspired design
 imdb_style_html_content = """
 <!DOCTYPE html>
 <html lang="nl">
